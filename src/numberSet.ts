@@ -1,5 +1,5 @@
 export class NumberSet {
-  static NaN = NaN
+  static NaN: unknown = NaN
 
   static add(x: unknown, y: unknown) {
     return this.NaN
